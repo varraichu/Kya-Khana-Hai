@@ -10,4 +10,8 @@ import { RouterLink, RouterOutlet } from "@angular/router";
 
 export class Footer{
     @Input() colorClass: string = 'text-[#A6F306]';
+
+    goToLinkedin(){
+        window.open('https://www.linkedin.com/in/qasim-anwar/', '_blank')
+    }
 }
