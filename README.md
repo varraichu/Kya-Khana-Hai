@@ -136,12 +136,6 @@ _Add screenshots here_
 3. **Randomly Selected Restaurant:**
 ![alt text](image-3.png)
 
-
----
-
-## Contributors
-- **Your Name** - [GitHub](https://github.com/your-username)
-
 ---
 
 ## License
