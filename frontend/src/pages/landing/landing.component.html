@@ -1,19 +1,49 @@
-<main class="bg-[#0035C1] min-h-screen flex flex-col p-4">
+<main class="bg-[#0035C1] min-h-screen flex flex-col w-full p-4">
     <app-header></app-header>
-    <div class="relative  flex flex-col flex-1 items-center ">
-        <h1 class="font-Mitr text-white text-9xl">Kya <span class="font-Kelsi text-[#A6F306]">Khana</span> Hai???</h1>
-        <div class="flex flex-row flex-1 px-20 py-4 w-full justify-between">
-            <div class=" flex flex-col justify-evenly items-center m-4 ">
-                <img src="assets/images/sparkle.svg" alt="" class="w-9/12 -rotate-24">
-                <h1 class="font-Gochi text-white text-3xl w-40">Decide krna mushkil hai kya?</h1>
+    <div class="flex flex-col justify-center flex-1">
+        
+        <div class="relative  flex flex-col  items-center
+        h-[50vh]
+        md:flex-1
+        lg:py-0 
+        ">
+            <h1 class="
+            font-Mitr text-white 
+            text-3xl
+            md:text-7xl
+            lg:text-8xl
+            xl:text-9xl
+            "> Kya <span class="font-Kelsi text-[#A6F306]">Khana</span> Hai???</h1>
+            <div class="flex flex-row flex-1 w-full justify-between
+            lg:px-20 lg:py-4
+            ">
+                <div class=" flex flex-col justify-evenly items-start  
+                lg:items-center lg:m-4 
+                ">
+                    <img src="assets/images/sparkle.svg" alt="" class="w-4/12 md:w-9/12 -rotate-24">
+                    <h1 class="font-Gochi text-white 
+                    text-md w-20
+                    md:text-3xl md:w-40
+                    ">Decide krna mushkil hai kya?</h1>
+                </div>
+                
+                <div class="flex flex-col justify-evenly items-end
+                lg:items-center lg:m-8 
+                ">
+                    <h1 class="font-Gochi text-white 
+                    text-md w-22
+                    md:text-3xl md:w-32
+                    ">Fikr not! Main houn na</h1>
+                    <img src="assets/images/sparkle.svg" alt="" class="w-4/12 md:w-9/12">
+                </div>
+                
             </div>
-            <div class="flex flex-col justify-evenly items-center m-8">
-                <h1 class="font-Gochi text-white text-3xl w-32">Fikr not! Main houn na</h1>
-                <img src="assets/images/sparkle.svg" alt="" class="w-9/12">
+            <img src="assets/images/burger.svg" alt="" class="lg:hidden w-9/12">
+    
+            <div class="hidden 
+            lg:absolute lg:flex lg:flex-col lg:items-center lg:justify-center lg:z-10 lg:w-full lg:h-full ">
+                <img src="assets/images/burger.svg" alt="" class="w-[52%]">
             </div>
-        </div>
-        <div class="absolute flex flex-col items-center justify-end z-10 w-full h-full">
-            <img src="assets/images/burger.svg" alt="" class="w-[52%]">
         </div>
     </div>
     <app-footer></app-footer>
