@@ -137,6 +137,10 @@ _Add screenshots here_
 ![alt text](image-3.png)
 
 ---
+## Future Plans
+I plan to implement a web scraper that scrapes the Foodpanda website and directly adds the restaurant data to MongoDB, eliminating the need for manual data entry.
+
+---
 
 ## License
 This project is licensed under the MIT License.
