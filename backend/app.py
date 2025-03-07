@@ -1,10 +1,12 @@
-from flask import Flask, jsonify 
+from flask import Flask, jsonify
+from flask_cors import CORS 
 from pymongo import MongoClient
 from db_operations import *
 # from bson import json_util, ObjectId
 import json
 
 app = Flask(__name__)
+CORS(app) 
 
 @app.route('/')
 def hello_world():
