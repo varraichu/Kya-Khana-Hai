@@ -124,7 +124,6 @@ Example response:
 ---
 
 ## Screenshots
-_Add screenshots here_
 
 1. **Homepage:**
 ![alt text](image.png)
