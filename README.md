@@ -1,6 +1,9 @@
 # Kya-Khana-Hai
 
-**Kya-Khana-Hai** is a web application designed to help indecisive people and their friends decide what to eat. It randomly selects a restaurant from a curated list and provides links to order food or view the location on maps.
+**Kya-Khana-Hai** is a web application designed to help indecisive people and their friends decide what to eat. 
+We've all had plans with our friends only for us to sit their an hour trying to decide what to eat. And lets not pretend it's only a ME issue! You have suffered from this as well!
+I got tired and decided to make this website so that our brains don't have to do the heavy lifting and we can focus on the eating part lol
+It randomly selects a restaurant from a curated list and provides links to order food or view the location on maps.
 
 ## Features
 - Fetches a list of restaurants stored in MongoDB from a Flask backend
